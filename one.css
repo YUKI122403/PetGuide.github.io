@@ -1,0 +1,94 @@
+body{
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+   background-image: url(onebg1.png);
+  background-size: cover;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+
+}
+
+.footer{
+  color: black;
+  transform: translateY(335px);
+  font-size: 25px;
+  font-family: 'Dongle', sans-serif;
+    background-color:#82E0AA;
+}
+
+.con1 ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color:#82E0AA;
+}
+
+.con1 li a {
+  font-family: 'Dongle', sans-serif;
+  font-size: 35px;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.con1 li a:hover:not(.active) {
+  background-color: #F7DC6F;
+  color: black;
+}
+
+.con1 li{
+  float: right;
+}
+
+.logo{
+  float: left;
+  position: absolute;
+  font-family: 'Rockwell', sans-serif;
+  color: black;
+  margin-left: 11%;
+  font-size: 50px;
+  margin-top: 0.6%;
+}
+
+.con1 ul li:hover .Ext-sub{
+  display: block;
+  position: absolute;
+}
+
+.con1 ul li:hover .Ext-sub ul{
+  display: block;
+  margin: 10px;
+}
+
+.con1 ul li:hover .Ext-sub ul li{
+  width: 130px;
+  padding: 4px;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  text-align: left;
+}
+
+p{
+  position: static;
+  margin-left: 23%;
+  font-size: 40px;
+  color: black;
+  font-family: 'Dongle', sans-serif;
+ 
+}
+
+h3{
+  font-size: 105px;
+  margin-top: 1%;
+  margin-left: 31%;
+  font-family: 'Dongle', sans-serif;
+}
+
+
+

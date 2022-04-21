@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-position: center;
+   background-image: url(foodbg.png);
+  background-size: cover;
+}
+
+.con1 ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color:#82E0AA;
+}
+
+.con1 li a {
+  font-family: 'Dongle', sans-serif;
+  font-size: 35px;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.con1 li a:hover:not(.active) {
+  background-color: #F7DC6F;
+  color: black;
+}
+
+.con1 li{
+  float: right;
+}
+
+.logo{
+  float: left;
+  position: absolute;
+  font-family: 'Rockwell', sans-serif;
+  color: black;
+  margin-left: 11%;
+  font-size: 50px;
+  margin-top: 0.6%;
+}
+
+.con1 ul li:hover .Ext-sub{
+  display: block;
+  position: absolute;
+}
+
+.con1 ul li:hover .Ext-sub ul{
+  display: block;
+  margin: 10px;
+}
+
+.con1 ul li:hover .Ext-sub ul li{
+  width: 130px;
+  padding: 4px;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  text-align: left;
+}
+
+.doggie {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style-type: none;
+  position: relative;
+}
+
+.doggie img{
+  height: 70%;
+  width: 70%;
+  border-style: solid;
+  border-color: #EC7063;
+}
+
+.Kitty {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style-type: none;
+  position: relative;
+}
+
+.Kitty img{
+  height: 70%;
+  width: 70%;
+  border-style: solid;
+  border-color: #9B59B6;
+}
+
+.Bunny {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style-type: none;
+  position: relative;
+}
+
+.Bunny img{
+  height: 40%;
+  width: 70%;
+  border-style: solid;
+  border-color: #E67E22 ;
+}
+
+.Water {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style-type: none;
+  position: relative;
+}
+
+.Water img{
+  height: 40%;
+  width: 70%;
+  border-style: solid;
+  border-color: #E67E22 ;
+}
+
+h2{
+font-family: 'Dongle', sans-serif;
+ font-size: 60px;
+}
+
+h4{
+font-family: 'Dongle', sans-serif;
+ font-size: 45px;
+}
+
+h3{
+font-family: 'Dongle', sans-serif;
+ font-size: 30px;
+}
+
+
+.footer{
+  color: black;
+
+  font-size: 25px;
+  font-family: 'Dongle', sans-serif;
+    background-color:#82E0AA;
+}
+
